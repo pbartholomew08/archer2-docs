@@ -541,7 +541,8 @@ communications patterns such as occur in parallel FFTs.
 
 ```
 module load craype-network-ucx 
-module load cray-mpich-ucx 
+module load cray-mpich-ucx
+export LD_LIBRARY_PATH=/opt/cray/libfabric/1.12.1.2.2.0.0/lib64:$LD_LIBRARY_PATH
 ```
 
 !!! important
